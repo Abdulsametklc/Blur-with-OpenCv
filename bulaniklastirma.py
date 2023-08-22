@@ -11,7 +11,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 #blurring(detayı azaltır, gürültüyü engeller)
-img = cv2.imread("NYC.jpg") #Götüntüyü içeri aktarma
+img = cv2.imread("NYC.jpg") #Görüntüyü içeri aktarma
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB) #: OpenCV'nin BGR renk düzenini Matplotlib'in RGB düzenine çevirme
 plt.figure() #Yeni bir matplotlib figürü oluşturma
 plt.imshow(img) , plt.axis("off"), plt.title("orijinal"), plt.show()
